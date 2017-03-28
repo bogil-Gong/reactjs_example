@@ -1,9 +1,9 @@
 var Event = React.createClass({
   propTypes: {
-    name: React.propTypes.string,
-    event_date: React.propTypes.string,
-    place: React.propTypes.string,
-    description: React.propTypes.string
+    name: React.PropTypes.string,
+    event_date: React.PropTypes.string,
+    place: React.PropTypes.string,
+    description: React.PropTypes.string
   },
   render: function(){
     var event = this.props.event;
